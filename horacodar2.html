@@ -42,21 +42,23 @@
         alert ("maior numero é" + (math.max(num1, num2, num3))); 
     
         // 4. Faça um programa que leia 3 valores informados pelo usuário (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+        
         // erro, não funciona
         
         
-        let nume1 = parseInt(prompt("diga um número"))
-        let nume2 = parseInt(prompt("diga outro número"))
-        let nume3 = parseInt(prompt("mais um"))
+        // let nume1 = parseInt(prompt("diga um número"))
+        // let nume2 = parseInt(prompt("diga outro número"))
+        // let nume3 = parseInt(prompt("mais um"))
 
-        let maior = (Math.max(nume1, nume2, 2))
-        let menor = (Math.min(nume1, nume2, nume3))
-        let soma = (maior + meio)
-        if (nume1 > num2 && num1 > nume3);
-        else if (nume2 > nume1 && nume2 > nume3);
-        else if(nume2 > nume1 && nume2 > nume3)
-        // não sei como difinir o meio
-        alert ("a soma dos maiores números é igual a" + '' + soma)
+        // let maior = (Math.max(nume1, nume2, 2))
+        // // let menor = (Math.min(nume1, nume2, nume3))
+        // let soma = (maior + meio)
+        // let meio 
+      
+        // if (nume1 > num2 && num1 < nume3);
+        // else if (nume2 > nume1 && nume2 < nume3);
+        // else if(nume3 > nume1 && nume3 < nume2)
+        // alert ("a soma dos maiores números é igual a" + soma)
 
       
             
@@ -85,20 +87,26 @@
 
             let primeiro = (val1)
             let maiorval = (Math.max(val1, val2, val3, val4))
-            alert ("primeiro número informado" + " " + primeiro + "." + " " + maiorval + "," + "maior valor informado")
+            let ultimo = (val4)
+            alert ("primeiro número informado" + " " + primeiro + "." + ultimo + " " + maiorval + "," + "maior valor informado")
 
     //     7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados.Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  
            
     
             // erro não sei como seguir
-            let  n1 = parseInt(prompt("digite o valor 1"))
-            let  n2 = parseInt(prompt("digite o valor 2"))
-            let  n3 = parseInt(prompt("digite o valor 3"))
-            let  n4 = parseInt(prompt("digite o valor 4"))
-            let  n5 = parseInt(prompt("digite o valor 5"))
-            let  n6 = parseInt(prompt("digite o valor 6"))
+            // let  n1 = parseInt(prompt("digite o valor 1"))
+            // let  n2 = parseInt(prompt("digite o valor 2"))
+            // let  n3 = parseInt(prompt("digite o valor 3"))
+            // let  n4 = parseInt(prompt("digite o valor 4"))
+            // let  n5 = parseInt(prompt("digite o valor 5"))
+            // let  n6 = parseInt(prompt("digite o valor 6"))
 
-            let informados = (n1, n2, n3, n4, n5, n6)
+            // let informados = (n1, n2, n3, n4, n5, n6);
+            // let somas 
+            // if (informados > Math.min && < Math.max)
+            
+            // alert ("soma dos numeros menor que 72" + soma + "numeros informados" + informados)
+
 
             // if (n1 < 72) soma + n1
             // if (n2 < 72) soma + n2 
@@ -118,11 +126,13 @@
 
         var valores = (v1,v2,v3,v4)
         var nece = (valores < 10 ++ /4)
-        if (nece => 5)
+        
+        if (nece => 5) {
         alert ("voce passou no teste")
-        else
+        }
+        else {
         alert ("tente novamente")
-     
+        }
     
 
     //     9. Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
@@ -130,12 +140,12 @@
         var ano = parseInt(prompt("informe seu ano de nascimento"))
         var calculo = parseInt(2024 - ano)
 
-        if (calculo < 16)
+        if (calculo < 16) {
         alert ("não pode votar")
-
-        else (calculo > 18)
+        }
+        else (calculo > 18) 
         alert ("pode votar")
-
+        
 
 
 
@@ -148,43 +158,46 @@
            
             let pesoideal
 
-            if (genero === 1)
+            if (genero === 1) {
             pesoideal = 72.7 * altura 
             alert ("peso ideal =" + pesoideal);
+            }
 
-            else if (genero === 2)
+            else if (genero === 2) {
             pesoideal = 62.1 * altura 
             alert ("peso ideal =" + pesoideal)
+            }
             
-            //tenho duvida no uso de if, else 
            
             
     //     11. Uma micro calculadora
     //     Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação).
     //     O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. 
 
-    let numero1 = parseInt(prompt("escolha um numero"))
+     let numero1 = parseInt(prompt("escolha um numero"))
      let numero2 = parseInt(prompt("informe outro número"))
      let escolha = parseInt(prompt("escolha uma numero: 1-adição, 2-subtração, 3-multiplição, 4-divisão"))
      
     let operação ;
 
-     if (escolha === 1)
+     if (escolha === 1) {
      operação = numero1 + numero2 
     alert ( "resultado" + operação);
- 
-    else if (escolha === 2)
+     }
+    else if (escolha === 2) {
      operação = numero1 - numero2 
     alert ( "resultado" + operação);
+    }
 
-    else if (escolha === 3)
+    else if (escolha === 3) {
      operação = numero1 * numero2 
     alert ( "resultado" + operação);
+    }
 
-    else (escolha === 4)
+    else {
      operação = numero1 / numero2 
     alert ( "resultado" + operação);
-
+    }
      
      
      
